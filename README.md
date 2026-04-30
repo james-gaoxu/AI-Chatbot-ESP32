@@ -23,4 +23,4 @@ Back to the repo, you will want to create your own setting if you are not using 
 - /config.h - this should contain all the port specification of your own config GPIO port
 - /my_esp32s3_board.cc - this should define the logic of conversation trigger method, audio get method, audio out method, and optional display method.
 
-Finally, you will need to go to https://xiaozhi.me/ and register and account from the console for the API usage.
+Finally, you will need to go to https://xiaozhi.me/ and register an account from the console for the API usage.
