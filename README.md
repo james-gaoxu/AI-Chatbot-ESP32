@@ -21,4 +21,5 @@ This repo is my 1st implementation, I pretty much uses followed the instruction 
 This repe is my 2nd implementaion, this repo uses vscode as base IDE, and flash the software with idf.py which is included with esp idf tools, you can get it from https://dl.espressif.com/dl/esp-idf/. Downlad the lastest offline version. My is version 5.5.4.
 Back to the repo, you will want to create your own setting if you are not using what the repo readme suggested under ./main/boards/, you can create it as /my-esp32s3, and inside this you should have 2 file:
 - /config.h - this should contain all the port specification of your own config GPIO port
-- /my_esp32s3_board.cc - this should define the logic of conversation trigger method, audio get method, audio out method, and optional display method. 
+- /my_esp32s3_board.cc - this should define the logic of conversation trigger method, audio get method, audio out method, and optional display method.
+Finally, you will need to go to https://xiaozhi.me/ and register and account from the console for the API usage.
